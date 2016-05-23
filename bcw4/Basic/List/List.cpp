@@ -5,6 +5,7 @@
 List::List(int capacity, double multiplier) : capacity(capacity), current(0), multiplier(multiplier) {
        array = (int*)malloc(capacity*sizeof(int));
 // useless line
+       // second useless line
        if ( array == NULL ) {
            throw OutOfMemoryException();
        }
